@@ -1,0 +1,6 @@
+category: KDE
+requires: libgcc1 libQtCore4 libQtGui4 libQtXml4 libstdc++6 libX11_6 libXtst6
+sdesc: "Qt port of KeePass Password Safe password manager"
+ldesc: "KeePassX is an application for people with extremly high demands 
+on secure personal data management. It is a port of the Windows password 
+manager KeePass Password Safe, and uses a compatible database format."
