@@ -1,0 +1,21 @@
+inherit qt4-qmake
+
+NAME="keepassx"
+VERSION=0.4.3
+RELEASE=1
+CATEGORY="Utils"
+SUMMARY="Qt port of KeePass Password Safe password manager"
+DESCRIPTION="KeePassX is an application for people with extremly high demands
+on secure personal data management. It is a port of the Windows password
+manager KeePass Password Safe, and uses a compatible database format."
+HOMEPAGE="http://www.keepassx.org/"
+SRC_URI="mirror://sourceforge/keepassx/${P}.tar.gz"
+
+DEPEND="pkgconfig(QtCore)
+	pkgconfig(QtGui)
+	pkgconfig(QtXml)
+	pkgconfig(x11)
+	pkgconfig(xtst)"
+
+CYGQMAKE4_ARGS="PRECOMPILED=0"
+DOCS="changelog"
